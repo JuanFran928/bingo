@@ -64,7 +64,6 @@ const pickNumber = () => {
   //cada numero aleatorio solo puede salir una vez, si ya ha salido coger otro
   const indice = randomIntFromInterval(1, bingoNumbers.length-1);
   let randomNumber = bingoNumbers[indice];
-  console.log({bingoNumbers:bingoNumbers , indice: indice});
 
     const numberDiv = document.getElementById("numberDiv");
     numberDiv.innerHTML = randomNumber;
