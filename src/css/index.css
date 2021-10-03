@@ -45,3 +45,7 @@
   align-content: center;
   font-size: 90px;
 }
+
+button {
+  margin: 5px;
+}
