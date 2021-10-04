@@ -26,6 +26,8 @@
   text-align: center;
   justify-content: center;
   line-height: 50px;
+  text-decoration: none;
+  transition: all 2s;
 }
 
 .wrapper {
@@ -48,4 +50,9 @@
 
 button {
   margin: 5px;
+}
+
+.line-through {
+  color: red;
+  text-decoration: line-through;
 }
